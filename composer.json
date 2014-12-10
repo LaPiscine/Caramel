@@ -3,8 +3,12 @@
     "description": "",
     "authors": [
         {
-            "name": "LaPiscine",
+            "name": "Michael Lefebre",
             "email": "michael@scenedata.com"
+        },
+        {
+            "name": "JC Suzanne",
+            "email": "jc.suzanne@gmail.com"
         }
     ],
     "require": {
