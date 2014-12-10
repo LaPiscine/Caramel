@@ -42,7 +42,7 @@ class CaramelController
 
     // if not ajax, we build html
     if( !$isAjax )
-      return $response->setContent( View::make( 'templates/desktop', $this->viewData ) );
+      return $response->setContent( View::make( $this->template, $this->viewData ) );
 
     // else, we return a JSON of the data
 
