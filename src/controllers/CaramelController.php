@@ -36,8 +36,8 @@ class CaramelController
   {
     $isAjax = Request::ajax();
 
-    // // cast the views object to a string
-    if( $isAjax )
+    // cast the views object to a string
+    if( $isAjax && !is_null( $this->viewData['view'] ) )
       $this->viewData['view'] = $this->viewData['view']->render();
 
     // if not ajax, we build html
